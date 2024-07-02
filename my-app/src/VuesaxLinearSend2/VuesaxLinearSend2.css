@@ -1,0 +1,16 @@
+.vuesax-linear-send-2,
+.vuesax-linear-send-2 * {
+  box-sizing: border-box;
+}
+.vuesax-linear-send-2 {
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.vuesax-linear-send-2 .vuesax-linear-send-22 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
