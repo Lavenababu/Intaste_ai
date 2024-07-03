@@ -48,9 +48,6 @@ export const Home = ({ className, ...props }) => {
       setCurrentPage('Home'); 
     };
 
-  // const handleButtonClick = () => {
-  //   setCurrentPage('Main'); 
-  // };
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -68,7 +65,6 @@ export const Home = ({ className, ...props }) => {
             {/* Add link to Main page with this button */}
           {/* <Link to="/chat" > */}  
           
-          {/* </Link> */}
           <Link to="/chat" >
           <button className="home_button" onClick={homeButtonClick}>
             <img className="home_logo" src="images/home_button_green.png" alt="Home logo"/>
