@@ -13,12 +13,12 @@ export const Login = ({ className, onClose,...props }) => {
           </div>
 
           <button className="social-button">
-            <img className="google" src="../build/static/media/google0.svg" />
+            <img className="google" src=" google0.svg" />
             <div className="continue-with-google">Continue with Google </div>
           </button>
 
           <button className="social-button2">
-            <img className="facebook" src="../build/static/media/facebook0.svg" />
+            <img className="facebook" src=" facebook0.svg" />
             <div className="continue-with-facebook">
               Continue with Facebook{" "}
             </div>
@@ -32,7 +32,7 @@ export const Login = ({ className, onClose,...props }) => {
           <div className="continue-with-email">Continue with Email </div>
           
           <button className="close-sign-up" onClick={onClose}>
-          <img className="x-close" src="../build/static/media/x-close0.svg" alt="Close" />
+          <img className="x-close" src=" x-close0.svg" alt="Close" />
           </button>
         </div>
       </div>

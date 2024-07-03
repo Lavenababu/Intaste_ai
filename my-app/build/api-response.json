@@ -1,0 +1,65 @@
+{
+  "status": 200,
+  "data": {
+    "1": {
+      "title": "Al Baik Chicken Broast",
+      "price": "99",
+      "restaurant": "By Al-Baik",
+      "description": "Non-veg item. Al Baik Chicken Broast. This item is a BESTSELLER, Costs: 99 rupees, Description: Tandoor cooked chicken breast marinated in a yogurt and chilli based masala Swipe right to add item to cart.",
+      "rating": "4.1",
+      "link": "https://www.swiggy.com/restaurants/al-baik-palghar-khar-mumbai-294145?query=Chicken+Karahi",
+      "category": "Veg",
+      "img_src": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/a0bec8cde7c0c7f590e9251fd749641c"
+    },
+    "2": {
+      "title": "Lazeez Bhuna Murgh Biryani (Dum Chicken Biryani - Serves 1)",
+      "price": "389",
+      "restaurant": "By Behrouz Biryani",
+      "description": "Non-veg item. Lazeez Bhuna Murgh Biryani (Dum Chicken Biryani - Serves 1). This item is a BESTSELLER, Costs: 389 rupees, Description: (Boneless, Served with 1 Gulab Jamun & Mint Raita) In this culinary jewel from Behrouz, Tender chicken pieces are marinated with exuberant bhuna spices that are freshly ground and dum pukht with aromatic rice. Swipe right to add item to cart.",
+      "rating": "4.3",
+      "link": "https://www.swiggy.com/restaurants/behrouz-biryani-kalina-santacruz-east-mumbai-16640?query=Chicken+Karahi",
+      "category": "Veg",
+      "img_src": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/htra1ceo32gospqkqalp"
+    },
+    "3": {
+      "title": "Chicken Bbq Tikka Chilly",
+      "price": "392",
+      "restaurant": "By Yasin's Food Inn",
+      "description": "Non-veg item. Chicken Bbq Tikka Chilly. Costs: 392 rupees, Description: Chicken Tikka With A Barbecue Twist And Chili Spices. Swipe right to add item to cart.",
+      "rating": "4.2",
+      "link": "https://www.swiggy.com/restaurants/yasins-food-inn-radhabai-niwas-corner-kurla-mumbai-802336?query=Spicy+Chicken+Tikka",
+      "category": "Veg",
+      "img_src": null
+    },
+    "4": {
+      "title": "Spicy Chicken Tikka [Boneless]",
+      "price": "279",
+      "restaurant": "By MOJO Pizza - 2X Toppings",
+      "description": "Non-veg item. Spicy Chicken Tikka [Boneless]. Costs: 279 rupees, Description: Tender chunks of chicken coated in marinade of curd and spices and grilled perfectly. Swipe right to add item to cart.",
+      "rating": "4.5",
+      "link": "https://www.swiggy.com/restaurants/mojo-pizza-2x-toppings-kurla-near-tabela-mumbai-689521?query=Spicy+Chicken+Tikka",
+      "category": "Veg",
+      "img_src": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/7a3df087d8fa66414989a770104e5cee"
+    },
+    "5": {
+      "title": "Hot Chicken Wings - 4pc",
+      "price": "179.05",
+      "restaurant": "By KFC",
+      "description": "Non-veg item. Hot Chicken Wings - 4pc. This item is a BESTSELLER, Costs: 179.05 rupees, Description: Seasoned, signature KFC chicken wings Swipe right to add item to cart.",
+      "rating": "4.0",
+      "link": "https://www.swiggy.com/restaurants/kfc-kurla-east-saki-naka-mumbai-243517?query=Hot+and+Spicy+Chicken+Fajitas",
+      "category": "Veg",
+      "img_src": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ubpofq5tlhdgwh2lzo8d"
+    },
+    "6": {
+      "title": "Hot N Spicy Fried Chicken",
+      "price": "125",
+      "restaurant": "By Nashville Fried Chicken - NFC",
+      "description": "Non-veg item. Hot N Spicy Fried Chicken. This item is a BESTSELLER, Costs: 125 rupees, Description: Chilli peri peri marinated chicken breaded and fried to prefection Swipe right to add item to cart.",
+      "rating": "4.3",
+      "link": "https://www.swiggy.com/restaurants/nashville-fried-chicken-nfc-bandra-east-bkc-mumbai-815628?query=Hot+and+Spicy+Chicken+Fajitas",
+      "category": "Veg",
+      "img_src": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/a9e3aad5ac31b1df072686fc6ced5029"
+    }
+  }
+}

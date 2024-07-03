@@ -6,14 +6,13 @@ import Slider from '@material-ui/core/Slider';
 import { VuesaxLinearSend2 } from "../VuesaxLinearSend2/VuesaxLinearSend2.jsx";
 import { FaHamburger } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-// import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import { Triangle } from 'react-loader-spinner';
 
 export const Main = ({ className, ...props }) => {
   const [textInputValue, setTextInputValue] = useState('');
   const [currentPage, setCurrentPage] = useState('Main');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  // const navigate = useNavigate();
 
   const handleButtonClick = () => {
     setCurrentPage('Results'); 
@@ -46,18 +45,19 @@ export const Main = ({ className, ...props }) => {
     <div className={` ${isMobileMenuOpen? 'mobile-menu-open' : 'nav'} hide`}>
       
     <div className="nav-top">
-      <img className="intaste_logo" src="../build/static/media/intaste_logo.png" alt="Intaste logo"/>
+      <img className="intaste_logo" src="images/intaste_logo.png" alt="Intaste logo"/>
       <div className="button_group">
-        <Link to='/chat' className='link' >
-        <button className="rectangle-8">
-          <div className="new-chat">New Chat</div>
-          <div><img className="plus" src="../build/static/media/plus0.svg" alt="plus icon"/></div>
-        </button>
-        </Link>
+       
       
           <Link to='/'>
         <button className="home_button" onClick={homeButtonClick}>
-          <img className="home_logo" src="../build/static/media/home_button_white.png" alt="Home logo"/>
+          <img className="home_logo" src="images/home_button_white.png" alt="Home logo"/>
+        </button>
+        </Link>
+        <Link to='/chat' className='link' >
+        <button className="rectangle-8">
+          <div className="new-chat">New Chat</div>
+          <div><img className="plus" src="plus0.svg" alt="plus icon"/></div>
         </button>
         </Link>
         {/* {currentPage === 'Home' && ( */}
@@ -72,25 +72,25 @@ export const Main = ({ className, ...props }) => {
         <div className="line2"></div>
         <div className="frame-1437252835">
           <button className="clear-conversations">
-            <img className="delete" src="../build/static/media/delete0.svg" alt="delete icon"/>
+            <img className="delete" src="delete0.svg" alt="delete icon"/>
             <div className="clear-conversations2">Clear conversations </div>
 
           </button>
           <button className="updates">
-            <img className="enlarge" src="../build/static/media/enlarge0.svg" alt="enlarge icon"/>
+            <img className="enlarge" src="enlarge0.svg" alt="enlarge icon"/>
             <div className="updates2">Updates &amp; FAQ </div>
 
           </button>
           <button className="logout">
-            <img className="logout2" src="../build/static/media/logout1.svg" alt="logout icon"/>
+            <img className="logout2" src="logout1.svg" alt="logout icon"/>
             <div className="log-out">Log out </div>
 
           </button>
           <div>
           <button className="frame-1437252837">
-          <img className="ellipse-517" src="../build/static/media/ellipse-5170.png" alt="profile"/>
+          <img className="ellipse-517" src="ellipse-5170.png" alt="profile"/>
           <div className="austin-dsouza">Austin Dsouza </div>
-          <img className="vuesax-linear-setting-2" src="../build/static/media/vuesax-linear-setting-20.svg" alt="settings icon"/>
+          <img className="vuesax-linear-setting-2" src="vuesax-linear-setting-20.svg" alt="settings icon"/>
         </button>
           </div>
         </div>
@@ -157,11 +157,11 @@ export const Main = ({ className, ...props }) => {
         </div>
 
       {/* {currentPage === 'Main' && ( */}
-      <Link to='/results'>
+      <Link to="/results">
         <button className="frame-39" onClick={handleButtonClick}>
           <VuesaxLinearSend2 className="vuesax-linear-send-2-instance"/>
         </button>
-        </Link>
+        </Link> 
      {/* )} */}
 
         </div>
@@ -169,7 +169,7 @@ export const Main = ({ className, ...props }) => {
         <div className="frame-1">
           <div className="frame-2">
             <div className="frame-3">
-              <img className="group-1437252828" src="../build/static/media/group-14372528280.svg" alt="icon"/>
+              <img className="group-1437252828" src="group-14372528280.svg" alt="icon"/>
               <div className="try-searching">Try searching</div>
             </div>
             <button className="suggestions">

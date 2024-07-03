@@ -57,21 +57,21 @@ export const Results = ({ className, ...props }) => {
     <div className={` ${isMobileMenuOpen? 'mobile-menu-open' : 'nav'} `}>
       
       <div className="nav-top">
-        <img className="intaste_logo" src="../build/static/media/intaste_logo.png" alt="Intaste logo"/>
+        <img className="intaste_logo" src=" intaste_logo.png" alt="Intaste logo"/>
         
         <div className="button_group">
           {/* {currentPage === 'Results' && ( */}
           <Link to='/chat' className='link'>
         <button className="rectangle-8" onClick={handleBackToMain}>
           <div className="new-chat">New Chat</div>
-          <div><img className="plus" src="../build/static/media/plus0.svg" alt="plus icon"/></div>
+          <div><img className="plus" src=" plus0.svg" alt="plus icon"/></div>
         </button>
         </Link>
         {/* )} */}
         {/* {currentPage === 'Results' && ( */}
         <Link to="/" >
         <button className="home_button" onClick={homeButtonClick}>
-          <img className="home_logo" src="../build/static/media/home_button_white.png" alt="Home logo"/>
+          <img className="home_logo" src=" home_button_white.png" alt="Home logo"/>
         </button>
         </Link>
         {/* )} */}
@@ -82,25 +82,25 @@ export const Results = ({ className, ...props }) => {
         <div className="line2"></div>
         <div className="frame-1437252835">
           <button className="clear-conversations">
-            <img className="delete" src="../build/static/media/delete0.svg" alt="delete icon"/>
+            <img className="delete" src=" delete0.svg" alt="delete icon"/>
             <div className="clear-conversations2">Clear conversations </div>
 
           </button>
           <button className="updates">
-            <img className="enlarge" src="../build/static/media/enlarge0.svg" alt="enlarge icon"/>
+            <img className="enlarge" src=" enlarge0.svg" alt="enlarge icon"/>
             <div className="updates2">Updates &amp; FAQ </div>
 
           </button>
           <button className="logout">
-            <img className="logout2" src="../build/static/media/logout1.svg" alt="logout icon"/>
+            <img className="logout2" src=" logout1.svg" alt="logout icon"/>
             <div className="log-out">Log out </div>
 
           </button>
           <div>
           <button className="frame-1437252837">
-          <img className="ellipse-517" src="../build/static/media/ellipse-5170.png" alt="profile"/>
+          <img className="ellipse-517" src=" ellipse-5170.png" alt="profile"/>
           <div className="austin-dsouza">Austin Dsouza </div>
-          <img className="" src="../build/static/media/vuesax-linear-setting-20.svg" alt="settings icon"/>
+          <img className="" src=" vuesax-linear-setting-20.svg" alt="settings icon"/>
         </button>
           </div>
         </div>
@@ -138,13 +138,13 @@ export const Results = ({ className, ...props }) => {
                     </div>
                   </div>
                   <div className="div_edit">
-                    <img className="edit" src="../build/static/media/edit0.svg" />
+                    <img className="edit" src=" edit0.svg" />
                   </div>
                 </div>
         
                 <div className="frame-1437252854">
                   <button className="filter_button">
-                    <img className="img" src="../build/static/media/img0.svg" />
+                    <img className="img" src=" img0.svg" />
                     <div className="filters">Filters </div>
                   </button>
                   <button className="rating_button">
@@ -167,7 +167,7 @@ export const Results = ({ className, ...props }) => {
                 <div className="frame-3010">
                   <div className="best-match">Best match </div>
                   <div>          
-                    <img className="shop_logo" src={`../build/static/media/${item.link.includes("swiggy") ? 'swiggy':'zomato'}.png`}/>
+                    <img className="shop_logo" src={` ${item.link.includes("swiggy") ? 'swiggy':'zomato'}.png`}/>
                   </div>
                 </div>
                 <div className="frame-3006">
@@ -182,7 +182,7 @@ export const Results = ({ className, ...props }) => {
                       </div>
                     <div className="frame-3007">
                       <div className="star-2">
-                        <img className="star_img" src="../build/static/media/_21.svg" />
+                        <img className="star_img" src=" _21.svg" />
                       </div>
                       <div className="_4-4-11186-reviews">
                       {item.rating}

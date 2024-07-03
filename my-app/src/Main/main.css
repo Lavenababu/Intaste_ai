@@ -375,13 +375,15 @@ font-family: Arial, Helvetica, sans-serif;
   height: 52px;
   margin-top: 60px; 
 }
+.link {
+  text-decoration: none;
+}
 .frame-422 {
   display: flex;
   flex-direction: row;
   gap: 14px;
   align-items: center;
   justify-content: center;
-  width: 80%;
   /* margin-left: 218px; */
   /* margin-top: 30px;  */
 }
@@ -435,7 +437,6 @@ font-family: Arial, Helvetica, sans-serif;
   border: none;
   margin-left: 10px;
   outline: none;
-  height: 30px;
 }
 
 .frame-39 {
@@ -646,6 +647,9 @@ font-weight: 400;
   .line2 {
       bottom : 60px;
   }
+  .rectangle-8{
+    width: 70% !important;
+  }
   .frame-1437252837{
       margin-top: 50px;
       width: 100vw;
@@ -674,7 +678,9 @@ font-weight: 400;
 .hide-ham {
   display: none;
 }
-
+.rectangle-8{
+  width: 70%;
+}
 .mainframe{
   position: fixed;
   /* padding-bottom: 40px;
